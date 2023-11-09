@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Counter</title>
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div class="product-container">
+      <img
+        id="productImage1"
+        src="Standard_Goldfis.jpg"
+        alt="Product 1 Image"
+        data-price="20"
+      />
+      <img
+        id="productImage2"
+        src="Standard_Goldfis.jpg"
+        alt="Product 2 Image"
+        data-price="30"
+      />
+      <div class="quantity-buttons">
+        <button id="plusBtn">+</button>
+        <span id="counter">0</span>
+        <button id="minusBtn">-</button>
+      </div>
+      <button id="buyBtn">Buy</button>
+    </div>
+
+    <div id="output"></div>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
